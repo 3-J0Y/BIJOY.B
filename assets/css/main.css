@@ -26,6 +26,17 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
+.social-links {
+  .social-links a 
+    margin: 0 15px; /* Adds space between icons */
+    font-size: 2rem; /* Increases the size of the icons */
+}
+.social-links img {
+    width: 50px; 
+    height: 50px; 
+    margin: 0 15px; /* Adds space between icons */
+}
+
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
