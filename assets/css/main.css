@@ -26,7 +26,7 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
-.social-links {
+.social {
   
     /*margin: 0 15px;  Adds space between icons */
     /*font-size: 2rem;  Increases the size of the icons */
