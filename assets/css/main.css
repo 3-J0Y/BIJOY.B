@@ -30,6 +30,7 @@
   .social-links a 
     margin: 0 15px; /* Adds space between icons */
     font-size: 2rem; /* Increases the size of the icons */
+    padding: 5px;
 }
 .social-links img {
     width: 50px; 
