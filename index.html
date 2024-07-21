@@ -32,12 +32,33 @@
       height: 22px;
       margin-left: 708px;
     }
-    .center-div {
+    .custom-container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .download-box {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
         }
+        
   </style>
 
   <!-- Main CSS File -->
@@ -208,11 +229,9 @@
         <h2>Resume</h2>
         <p>"Committed to safeguarding our nation from cyber threats and ensuring a secure digital future"</p>
       </div><!-- End Section Title -->
-      <div class="container">
-        <div class="center-div">
-            <div class="text-center">
-                <button class="btn btn-primary" onclick="downloadFile()">Download</button>
-            </div>
+      <div class="custom-container">
+        <div class="download-box">
+            <a href="path/to/your/file.txt" class="download-btn" download>Download</a>
         </div>
     </div>
       <div class="container">
