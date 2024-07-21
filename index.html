@@ -32,6 +32,12 @@
       height: 22px;
       margin-left: 708px;
     }
+    .center-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
   </style>
 
   <!-- Main CSS File -->
@@ -202,9 +208,13 @@
         <h2>Resume</h2>
         <p>"Committed to safeguarding our nation from cyber threats and ensuring a secure digital future"</p>
       </div><!-- End Section Title -->
-      <a href="image.jpg">
-        <button class="btn btn-primary" style="width:100%"><i class="bi bi-download"></i> Download</button>
-        </a>
+      <div class="container">
+        <div class="center-div">
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="downloadFile()">Download</button>
+            </div>
+        </div>
+    </div>
       <div class="container">
 
         <div class="row">
